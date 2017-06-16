@@ -9,11 +9,11 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--Explore-->
         <scene sceneID="if0-Fb-ir6">
             <objects>
                 <navigationController id="xcF-Eg-aww" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="aSI-by-UCX"/>
+                    <tabBarItem key="tabBarItem" title="Explore" image="explore" selectedImage="explore" id="aSI-by-UCX"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="JnX-j5-AAK">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -48,7 +48,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Explore" id="8O6-tB-zXo"/>
+                    <tabBarItem key="tabBarItem" title="Explore" image="explore" id="8O6-tB-zXo"/>
                     <navigationItem key="navigationItem" title="Wiki" id="FNd-N4-tjo">
                         <barButtonItem key="leftBarButtonItem" image="settings" id="yXb-WF-Lxo">
                             <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -100,7 +100,7 @@
                             <constraint firstAttribute="centerY" secondItem="KQZ-1w-vlD" secondAttribute="centerY" id="exm-UA-ej4"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Saved" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Saved" image="saved" id="acW-dT-cKf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
@@ -140,7 +140,7 @@
                             <constraint firstAttribute="centerY" secondItem="zEq-FU-wV5" secondAttribute="centerY" id="qzY-Ky-pLD"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="History" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="History" image="history" id="cPa-gy-q4n"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
@@ -272,9 +272,9 @@
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
+                        <segue destination="xcF-Eg-aww" kind="relationship" relationship="viewControllers" id="hJI-97-jRJ"/>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
-                        <segue destination="xcF-Eg-aww" kind="relationship" relationship="viewControllers" id="hJI-97-jRJ"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
@@ -283,6 +283,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="explore" width="25" height="25"/>
+        <image name="history" width="25" height="25"/>
+        <image name="saved" width="25" height="25"/>
         <image name="settings" width="30" height="30"/>
         <image name="share" width="25" height="25"/>
     </resources>
