@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5632FE2EDA10E31815F27252 /* libPods-WikiProTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 344CC6D900528423E89E617F /* libPods-WikiProTests.a */; };
+		77C447E428D4D1EC1EFEE148 /* libPods-WikiProUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9CDF2ECD5D4C926E0F9B7D5 /* libPods-WikiProUITests.a */; };
 		88F2B8AA1EF443350002CE61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F2B8A91EF443350002CE61 /* main.m */; };
 		88F2B8AD1EF443350002CE61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F2B8AC1EF443350002CE61 /* AppDelegate.m */; };
 		88F2B8B01EF443350002CE61 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F2B8AF1EF443350002CE61 /* FirstViewController.m */; };
@@ -16,6 +18,7 @@
 		88F2B8BB1EF443350002CE61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88F2B8B91EF443350002CE61 /* LaunchScreen.storyboard */; };
 		88F2B8C61EF443350002CE61 /* WikiProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F2B8C51EF443350002CE61 /* WikiProTests.m */; };
 		88F2B8D11EF443350002CE61 /* WikiProUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F2B8D01EF443350002CE61 /* WikiProUITests.m */; };
+		DB46098E5FB987C36BDFB87E /* libPods-WikiPro.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3556D8A1652049714A97576A /* libPods-WikiPro.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		026E8D2A423EA0F0213BEF6B /* Pods-WikiProTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WikiProTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WikiProTests/Pods-WikiProTests.debug.xcconfig"; sourceTree = "<group>"; };
+		344CC6D900528423E89E617F /* libPods-WikiProTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WikiProTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3556D8A1652049714A97576A /* libPods-WikiPro.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WikiPro.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88F2B8A51EF443350002CE61 /* WikiPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WikiPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88F2B8A91EF443350002CE61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		88F2B8AB1EF443350002CE61 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,6 +60,12 @@
 		88F2B8CC1EF443350002CE61 /* WikiProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WikiProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88F2B8D01EF443350002CE61 /* WikiProUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WikiProUITests.m; sourceTree = "<group>"; };
 		88F2B8D21EF443350002CE61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D3866DDDBC0331ECB8352D5 /* Pods-WikiPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WikiPro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WikiPro/Pods-WikiPro.debug.xcconfig"; sourceTree = "<group>"; };
+		94E9DFA3136FAF96F85C0A74 /* Pods-WikiPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WikiPro.release.xcconfig"; path = "Pods/Target Support Files/Pods-WikiPro/Pods-WikiPro.release.xcconfig"; sourceTree = "<group>"; };
+		A53BEC41310626869BDF2A5E /* Pods-WikiProUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WikiProUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WikiProUITests/Pods-WikiProUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A9CDF2ECD5D4C926E0F9B7D5 /* libPods-WikiProUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WikiProUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3774920ACF4909C3370F230 /* Pods-WikiProUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WikiProUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WikiProUITests/Pods-WikiProUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EE2BC57A2A314CFF20D1B652 /* Pods-WikiProTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WikiProTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WikiProTests/Pods-WikiProTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB46098E5FB987C36BDFB87E /* libPods-WikiPro.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5632FE2EDA10E31815F27252 /* libPods-WikiProTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +89,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77C447E428D4D1EC1EFEE148 /* libPods-WikiProUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		748CC1AFD8961FFAFE4A3D81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3556D8A1652049714A97576A /* libPods-WikiPro.a */,
+				344CC6D900528423E89E617F /* libPods-WikiProTests.a */,
+				A9CDF2ECD5D4C926E0F9B7D5 /* libPods-WikiProUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		88F2B89C1EF443350002CE61 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +113,8 @@
 				88F2B8C41EF443350002CE61 /* WikiProTests */,
 				88F2B8CF1EF443350002CE61 /* WikiProUITests */,
 				88F2B8A61EF443350002CE61 /* Products */,
+				91406A0C6BABE784F475362A /* Pods */,
+				748CC1AFD8961FFAFE4A3D81 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -145,6 +172,19 @@
 			path = WikiProUITests;
 			sourceTree = "<group>";
 		};
+		91406A0C6BABE784F475362A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D3866DDDBC0331ECB8352D5 /* Pods-WikiPro.debug.xcconfig */,
+				94E9DFA3136FAF96F85C0A74 /* Pods-WikiPro.release.xcconfig */,
+				026E8D2A423EA0F0213BEF6B /* Pods-WikiProTests.debug.xcconfig */,
+				EE2BC57A2A314CFF20D1B652 /* Pods-WikiProTests.release.xcconfig */,
+				A53BEC41310626869BDF2A5E /* Pods-WikiProUITests.debug.xcconfig */,
+				B3774920ACF4909C3370F230 /* Pods-WikiProUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88F2B8D51EF443350002CE61 /* Build configuration list for PBXNativeTarget "WikiPro" */;
 			buildPhases = (
+				6818C2D27EB8C43C7E2FCEFE /* [CP] Check Pods Manifest.lock */,
 				88F2B8A11EF443350002CE61 /* Sources */,
 				88F2B8A21EF443350002CE61 /* Frameworks */,
 				88F2B8A31EF443350002CE61 /* Resources */,
+				0586147A0EA64F60AFEB3B37 /* [CP] Embed Pods Frameworks */,
+				D4A002F26BEFD2FB4D1BD54F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -169,9 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88F2B8D81EF443350002CE61 /* Build configuration list for PBXNativeTarget "WikiProTests" */;
 			buildPhases = (
+				500BEE50084748BA3B7EA469 /* [CP] Check Pods Manifest.lock */,
 				88F2B8BD1EF443350002CE61 /* Sources */,
 				88F2B8BE1EF443350002CE61 /* Frameworks */,
 				88F2B8BF1EF443350002CE61 /* Resources */,
+				C880928F708EE7AC7AC6F78C /* [CP] Embed Pods Frameworks */,
+				418ADCED2AB88595253D0CC2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,9 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88F2B8DB1EF443350002CE61 /* Build configuration list for PBXNativeTarget "WikiProUITests" */;
 			buildPhases = (
+				977F0384964D06C8848A3521 /* [CP] Check Pods Manifest.lock */,
 				88F2B8C81EF443350002CE61 /* Sources */,
 				88F2B8C91EF443350002CE61 /* Frameworks */,
 				88F2B8CA1EF443350002CE61 /* Resources */,
+				B68CA9B91350E72CF070D6DC /* [CP] Embed Pods Frameworks */,
+				0354A59D6A33D1B53B451844 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -275,6 +324,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0354A59D6A33D1B53B451844 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WikiProUITests/Pods-WikiProUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0586147A0EA64F60AFEB3B37 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WikiPro/Pods-WikiPro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		418ADCED2AB88595253D0CC2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WikiProTests/Pods-WikiProTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		500BEE50084748BA3B7EA469 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6818C2D27EB8C43C7E2FCEFE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		977F0384964D06C8848A3521 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B68CA9B91350E72CF070D6DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WikiProUITests/Pods-WikiProUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C880928F708EE7AC7AC6F78C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WikiProTests/Pods-WikiProTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4A002F26BEFD2FB4D1BD54F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WikiPro/Pods-WikiPro-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		88F2B8A11EF443350002CE61 /* Sources */ = {
@@ -433,6 +620,7 @@
 		};
 		88F2B8D61EF443350002CE61 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D3866DDDBC0331ECB8352D5 /* Pods-WikiPro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = RS9ZBZ6GCU;
@@ -445,6 +633,7 @@
 		};
 		88F2B8D71EF443350002CE61 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94E9DFA3136FAF96F85C0A74 /* Pods-WikiPro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = RS9ZBZ6GCU;
@@ -457,6 +646,7 @@
 		};
 		88F2B8D91EF443350002CE61 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 026E8D2A423EA0F0213BEF6B /* Pods-WikiProTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = RS9ZBZ6GCU;
@@ -470,6 +660,7 @@
 		};
 		88F2B8DA1EF443350002CE61 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE2BC57A2A314CFF20D1B652 /* Pods-WikiProTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = RS9ZBZ6GCU;
@@ -483,6 +674,7 @@
 		};
 		88F2B8DC1EF443350002CE61 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A53BEC41310626869BDF2A5E /* Pods-WikiProUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = RS9ZBZ6GCU;
 				INFOPLIST_FILE = WikiProUITests/Info.plist;
@@ -495,6 +687,7 @@
 		};
 		88F2B8DD1EF443350002CE61 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3774920ACF4909C3370F230 /* Pods-WikiProUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = RS9ZBZ6GCU;
 				INFOPLIST_FILE = WikiProUITests/Info.plist;
