@@ -18,6 +18,14 @@
 		88F2B8BB1EF443350002CE61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88F2B8B91EF443350002CE61 /* LaunchScreen.storyboard */; };
 		88F2B8C61EF443350002CE61 /* WikiProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F2B8C51EF443350002CE61 /* WikiProTests.m */; };
 		88F2B8D11EF443350002CE61 /* WikiProUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F2B8D01EF443350002CE61 /* WikiProUITests.m */; };
+		88F2B8EE1EF447C30002CE61 /* AppLauncher.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F2B8ED1EF447C30002CE61 /* AppLauncher.m */; };
+		88F2B9011EF449040002CE61 /* ExploreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F2B8F41EF449040002CE61 /* ExploreViewController.m */; };
+		88F2B9021EF449040002CE61 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F2B8F71EF449040002CE61 /* HistoryViewController.m */; };
+		88F2B9031EF449040002CE61 /* SavedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F2B8FA1EF449040002CE61 /* SavedViewController.m */; };
+		88F2B9041EF449040002CE61 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F2B8FD1EF449040002CE61 /* SettingsViewController.m */; };
+		88F2B9051EF449040002CE61 /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F2B9001EF449040002CE61 /* TabViewController.m */; };
+		88F2B9081EF449180002CE61 /* SettingsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F2B9071EF449180002CE61 /* SettingsCell.m */; };
+		88F2B90F1EF45EB10002CE61 /* UIColor+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F2B90E1EF45EB10002CE61 /* UIColor+Utils.m */; };
 		DB46098E5FB987C36BDFB87E /* libPods-WikiPro.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3556D8A1652049714A97576A /* libPods-WikiPro.a */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +68,22 @@
 		88F2B8CC1EF443350002CE61 /* WikiProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WikiProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88F2B8D01EF443350002CE61 /* WikiProUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WikiProUITests.m; sourceTree = "<group>"; };
 		88F2B8D21EF443350002CE61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88F2B8EC1EF447C30002CE61 /* AppLauncher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppLauncher.h; sourceTree = "<group>"; };
+		88F2B8ED1EF447C30002CE61 /* AppLauncher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppLauncher.m; sourceTree = "<group>"; };
+		88F2B8F31EF449040002CE61 /* ExploreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExploreViewController.h; sourceTree = "<group>"; };
+		88F2B8F41EF449040002CE61 /* ExploreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExploreViewController.m; sourceTree = "<group>"; };
+		88F2B8F61EF449040002CE61 /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
+		88F2B8F71EF449040002CE61 /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
+		88F2B8F91EF449040002CE61 /* SavedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SavedViewController.h; sourceTree = "<group>"; };
+		88F2B8FA1EF449040002CE61 /* SavedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SavedViewController.m; sourceTree = "<group>"; };
+		88F2B8FC1EF449040002CE61 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		88F2B8FD1EF449040002CE61 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		88F2B8FF1EF449040002CE61 /* TabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabViewController.h; sourceTree = "<group>"; };
+		88F2B9001EF449040002CE61 /* TabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabViewController.m; sourceTree = "<group>"; };
+		88F2B9061EF449180002CE61 /* SettingsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsCell.h; sourceTree = "<group>"; };
+		88F2B9071EF449180002CE61 /* SettingsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsCell.m; sourceTree = "<group>"; };
+		88F2B90D1EF45EB10002CE61 /* UIColor+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Utils.h"; sourceTree = "<group>"; };
+		88F2B90E1EF45EB10002CE61 /* UIColor+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Utils.m"; sourceTree = "<group>"; };
 		8D3866DDDBC0331ECB8352D5 /* Pods-WikiPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WikiPro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WikiPro/Pods-WikiPro.debug.xcconfig"; sourceTree = "<group>"; };
 		94E9DFA3136FAF96F85C0A74 /* Pods-WikiPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WikiPro.release.xcconfig"; path = "Pods/Target Support Files/Pods-WikiPro/Pods-WikiPro.release.xcconfig"; sourceTree = "<group>"; };
 		A53BEC41310626869BDF2A5E /* Pods-WikiProUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WikiProUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WikiProUITests/Pods-WikiProUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -131,6 +155,9 @@
 		88F2B8A71EF443350002CE61 /* WikiPro */ = {
 			isa = PBXGroup;
 			children = (
+				88F2B90C1EF45EB10002CE61 /* Categories */,
+				88F2B8EB1EF4479C0002CE61 /* Managers */,
+				88F2B8DE1EF446730002CE61 /* ViewControllers */,
 				88F2B8AB1EF443350002CE61 /* AppDelegate.h */,
 				88F2B8AC1EF443350002CE61 /* AppDelegate.m */,
 				88F2B8AE1EF443350002CE61 /* FirstViewController.h */,
@@ -170,6 +197,83 @@
 				88F2B8D21EF443350002CE61 /* Info.plist */,
 			);
 			path = WikiProUITests;
+			sourceTree = "<group>";
+		};
+		88F2B8DE1EF446730002CE61 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				88F2B8F21EF449040002CE61 /* Explore */,
+				88F2B8F51EF449040002CE61 /* History */,
+				88F2B8F81EF449040002CE61 /* Saved */,
+				88F2B8FB1EF449040002CE61 /* Settings */,
+				88F2B8FE1EF449040002CE61 /* Tabbar */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		88F2B8EB1EF4479C0002CE61 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				88F2B8EC1EF447C30002CE61 /* AppLauncher.h */,
+				88F2B8ED1EF447C30002CE61 /* AppLauncher.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		88F2B8F21EF449040002CE61 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				88F2B8F31EF449040002CE61 /* ExploreViewController.h */,
+				88F2B8F41EF449040002CE61 /* ExploreViewController.m */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		88F2B8F51EF449040002CE61 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				88F2B8F61EF449040002CE61 /* HistoryViewController.h */,
+				88F2B8F71EF449040002CE61 /* HistoryViewController.m */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		88F2B8F81EF449040002CE61 /* Saved */ = {
+			isa = PBXGroup;
+			children = (
+				88F2B8F91EF449040002CE61 /* SavedViewController.h */,
+				88F2B8FA1EF449040002CE61 /* SavedViewController.m */,
+			);
+			path = Saved;
+			sourceTree = "<group>";
+		};
+		88F2B8FB1EF449040002CE61 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				88F2B8FC1EF449040002CE61 /* SettingsViewController.h */,
+				88F2B8FD1EF449040002CE61 /* SettingsViewController.m */,
+				88F2B9061EF449180002CE61 /* SettingsCell.h */,
+				88F2B9071EF449180002CE61 /* SettingsCell.m */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		88F2B8FE1EF449040002CE61 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				88F2B8FF1EF449040002CE61 /* TabViewController.h */,
+				88F2B9001EF449040002CE61 /* TabViewController.m */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		88F2B90C1EF45EB10002CE61 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				88F2B90D1EF45EB10002CE61 /* UIColor+Utils.h */,
+				88F2B90E1EF45EB10002CE61 /* UIColor+Utils.m */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 		91406A0C6BABE784F475362A /* Pods */ = {
@@ -468,9 +572,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88F2B8EE1EF447C30002CE61 /* AppLauncher.m in Sources */,
 				88F2B8B31EF443350002CE61 /* SecondViewController.m in Sources */,
+				88F2B9031EF449040002CE61 /* SavedViewController.m in Sources */,
+				88F2B9041EF449040002CE61 /* SettingsViewController.m in Sources */,
+				88F2B9051EF449040002CE61 /* TabViewController.m in Sources */,
 				88F2B8AD1EF443350002CE61 /* AppDelegate.m in Sources */,
+				88F2B9081EF449180002CE61 /* SettingsCell.m in Sources */,
+				88F2B90F1EF45EB10002CE61 /* UIColor+Utils.m in Sources */,
 				88F2B8B01EF443350002CE61 /* FirstViewController.m in Sources */,
+				88F2B9011EF449040002CE61 /* ExploreViewController.m in Sources */,
+				88F2B9021EF449040002CE61 /* HistoryViewController.m in Sources */,
 				88F2B8AA1EF443350002CE61 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -717,6 +829,7 @@
 				88F2B8D71EF443350002CE61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88F2B8D81EF443350002CE61 /* Build configuration list for PBXNativeTarget "WikiProTests" */ = {
 			isa = XCConfigurationList;
@@ -725,6 +838,7 @@
 				88F2B8DA1EF443350002CE61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88F2B8DB1EF443350002CE61 /* Build configuration list for PBXNativeTarget "WikiProUITests" */ = {
 			isa = XCConfigurationList;
@@ -733,6 +847,7 @@
 				88F2B8DD1EF443350002CE61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
