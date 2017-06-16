@@ -26,6 +26,8 @@
 		88F2B9051EF449040002CE61 /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F2B9001EF449040002CE61 /* TabViewController.m */; };
 		88F2B9081EF449180002CE61 /* SettingsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F2B9071EF449180002CE61 /* SettingsCell.m */; };
 		88F2B90F1EF45EB10002CE61 /* UIColor+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F2B90E1EF45EB10002CE61 /* UIColor+Utils.m */; };
+		88F2B9131EF4660A0002CE61 /* Holcodiscidae_-_Spitidiscus_species.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 88F2B9111EF4660A0002CE61 /* Holcodiscidae_-_Spitidiscus_species.JPG */; };
+		88F2B9141EF4660A0002CE61 /* IOS_11_Homescreen_iPhone_7_Plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 88F2B9121EF4660A0002CE61 /* IOS_11_Homescreen_iPhone_7_Plus.png */; };
 		DB46098E5FB987C36BDFB87E /* libPods-WikiPro.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3556D8A1652049714A97576A /* libPods-WikiPro.a */; };
 /* End PBXBuildFile section */
 
@@ -84,6 +86,8 @@
 		88F2B9071EF449180002CE61 /* SettingsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsCell.m; sourceTree = "<group>"; };
 		88F2B90D1EF45EB10002CE61 /* UIColor+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Utils.h"; sourceTree = "<group>"; };
 		88F2B90E1EF45EB10002CE61 /* UIColor+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Utils.m"; sourceTree = "<group>"; };
+		88F2B9111EF4660A0002CE61 /* Holcodiscidae_-_Spitidiscus_species.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Holcodiscidae_-_Spitidiscus_species.JPG"; sourceTree = "<group>"; };
+		88F2B9121EF4660A0002CE61 /* IOS_11_Homescreen_iPhone_7_Plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IOS_11_Homescreen_iPhone_7_Plus.png; sourceTree = "<group>"; };
 		8D3866DDDBC0331ECB8352D5 /* Pods-WikiPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WikiPro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WikiPro/Pods-WikiPro.debug.xcconfig"; sourceTree = "<group>"; };
 		94E9DFA3136FAF96F85C0A74 /* Pods-WikiPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WikiPro.release.xcconfig"; path = "Pods/Target Support Files/Pods-WikiPro/Pods-WikiPro.release.xcconfig"; sourceTree = "<group>"; };
 		A53BEC41310626869BDF2A5E /* Pods-WikiProUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WikiProUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WikiProUITests/Pods-WikiProUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -155,6 +159,7 @@
 		88F2B8A71EF443350002CE61 /* WikiPro */ = {
 			isa = PBXGroup;
 			children = (
+				88F2B9101EF4660A0002CE61 /* Resources */,
 				88F2B90C1EF45EB10002CE61 /* Categories */,
 				88F2B8EB1EF4479C0002CE61 /* Managers */,
 				88F2B8DE1EF446730002CE61 /* ViewControllers */,
@@ -274,6 +279,15 @@
 				88F2B90E1EF45EB10002CE61 /* UIColor+Utils.m */,
 			);
 			path = Categories;
+			sourceTree = "<group>";
+		};
+		88F2B9101EF4660A0002CE61 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				88F2B9111EF4660A0002CE61 /* Holcodiscidae_-_Spitidiscus_species.JPG */,
+				88F2B9121EF4660A0002CE61 /* IOS_11_Homescreen_iPhone_7_Plus.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		91406A0C6BABE784F475362A /* Pods */ = {
@@ -410,6 +424,8 @@
 				88F2B8BB1EF443350002CE61 /* LaunchScreen.storyboard in Resources */,
 				88F2B8B81EF443350002CE61 /* Assets.xcassets in Resources */,
 				88F2B8B61EF443350002CE61 /* Main.storyboard in Resources */,
+				88F2B9131EF4660A0002CE61 /* Holcodiscidae_-_Spitidiscus_species.JPG in Resources */,
+				88F2B9141EF4660A0002CE61 /* IOS_11_Homescreen_iPhone_7_Plus.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
