@@ -9,6 +9,8 @@
 #import "SettingsViewController.h"
 #import "SettingsCell.h"
 #import "UIColor+Utils.h"
+#import "Utility.h"
+#import "SignInViewController.h"
 
 @interface SettingsViewController () <UITableViewDelegate,UITableViewDataSource>
 {
@@ -42,6 +44,10 @@
     
     // prepare items
     [self prepareItems];
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
     
     // reload table data
     [self reloadTableData];
@@ -242,6 +248,15 @@
         cell.switchT.hidden = YES;
     }
     
+    if ([identifier isEqualToString:kId_LoggedIn]) {
+        BOOL isLoggedIn = [[Utility sharedInstance] isLoggedIn];
+        if (isLoggedIn) {
+            cell.lblTitle.text = title;
+        } else {
+            cell.lblTitle.text = @"Login";
+        }
+    }
+    
     NSString *colorHex = info[kRowColorHex];
     cell.imgIcon.backgroundColor = [UIColor colorWithHexString:colorHex];
     cell.imgIcon.layer.cornerRadius = 4;
@@ -250,6 +265,52 @@
 }
 
 #pragma mark - UITableViewDelegate
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    
+    NSString *key = arrSectionKeys[indexPath.section];
+    NSMutableDictionary *d = dictData[key];
+    NSMutableArray *items = d[kSectionDictItems];
+    NSMutableDictionary *info = items[indexPath.row];
+    NSString *identifier = info[kRowIdentifier];
+    
+    if ([identifier isEqualToString:kId_LoggedIn]) {
+        BOOL isLoggedIn = [[Utility sharedInstance] isLoggedIn];
+        if (isLoggedIn) {
+            
+            [self showLogoutOptions];
+            
+        } else {
+        
+            SignInViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"SignInViewController"];
+            [self presentViewController:vc animated:YES completion:nil];
+        }
+    }
+    
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+}
 
+- (void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+}
+
+#pragma mark - Show options for SignIn
+- (void)showLogoutOptions
+{
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"" message:@"Are you sure you want to logout?" preferredStyle:UIAlertControllerStyleAlert];
+    
+    [alert addAction:[UIAlertAction actionWithTitle:@"Log out" style:UIAlertActionStyleDestructive handler:^(UIAlertAction * _Nonnull action) {
+        
+        [[Utility sharedInstance] setLogin:NO];
+        [theTableView reloadData];
+        
+    }]];
+    
+    [alert addAction:[UIAlertAction actionWithTitle:@"Cancel" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+        
+    }]];
+    
+    [self presentViewController:alert animated:YES completion:nil];
+}
 
 @end

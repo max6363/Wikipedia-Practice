@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		5632FE2EDA10E31815F27252 /* libPods-WikiProTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 344CC6D900528423E89E617F /* libPods-WikiProTests.a */; };
 		77C447E428D4D1EC1EFEE148 /* libPods-WikiProUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9CDF2ECD5D4C926E0F9B7D5 /* libPods-WikiProUITests.a */; };
+		881C41E81EF59BEF00814619 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 881C41E71EF59BEF00814619 /* SignInViewController.m */; };
+		881C41EB1EF59C0300814619 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 881C41EA1EF59C0300814619 /* SignUpViewController.m */; };
+		881C41EF1EF5A04600814619 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 881C41EE1EF5A04600814619 /* Utility.m */; };
 		88F2B8AA1EF443350002CE61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F2B8A91EF443350002CE61 /* main.m */; };
 		88F2B8AD1EF443350002CE61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F2B8AC1EF443350002CE61 /* AppDelegate.m */; };
 		88F2B8B01EF443350002CE61 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F2B8AF1EF443350002CE61 /* FirstViewController.m */; };
@@ -53,6 +56,12 @@
 		026E8D2A423EA0F0213BEF6B /* Pods-WikiProTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WikiProTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WikiProTests/Pods-WikiProTests.debug.xcconfig"; sourceTree = "<group>"; };
 		344CC6D900528423E89E617F /* libPods-WikiProTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WikiProTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3556D8A1652049714A97576A /* libPods-WikiPro.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WikiPro.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		881C41E61EF59BEF00814619 /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
+		881C41E71EF59BEF00814619 /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
+		881C41E91EF59C0300814619 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		881C41EA1EF59C0300814619 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		881C41ED1EF5A04600814619 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		881C41EE1EF5A04600814619 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
 		88F2B8A51EF443350002CE61 /* WikiPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WikiPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88F2B8A91EF443350002CE61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		88F2B8AB1EF443350002CE61 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -137,6 +146,33 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		881C41E41EF59BD800814619 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				881C41E61EF59BEF00814619 /* SignInViewController.h */,
+				881C41E71EF59BEF00814619 /* SignInViewController.m */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		881C41E51EF59BD800814619 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				881C41E91EF59C0300814619 /* SignUpViewController.h */,
+				881C41EA1EF59C0300814619 /* SignUpViewController.m */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		881C41EC1EF5A03500814619 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				881C41ED1EF5A04600814619 /* Utility.h */,
+				881C41EE1EF5A04600814619 /* Utility.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		88F2B89C1EF443350002CE61 = {
 			isa = PBXGroup;
 			children = (
@@ -162,6 +198,7 @@
 		88F2B8A71EF443350002CE61 /* WikiPro */ = {
 			isa = PBXGroup;
 			children = (
+				881C41EC1EF5A03500814619 /* Utilities */,
 				88F2B9101EF4660A0002CE61 /* Resources */,
 				88F2B90C1EF45EB10002CE61 /* Categories */,
 				88F2B8EB1EF4479C0002CE61 /* Managers */,
@@ -210,6 +247,8 @@
 		88F2B8DE1EF446730002CE61 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				881C41E41EF59BD800814619 /* SignIn */,
+				881C41E51EF59BD800814619 /* SignUp */,
 				88F2B8F21EF449040002CE61 /* Explore */,
 				88F2B8F51EF449040002CE61 /* History */,
 				88F2B8F81EF449040002CE61 /* Saved */,
@@ -593,6 +632,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				881C41E81EF59BEF00814619 /* SignInViewController.m in Sources */,
 				88F2B8EE1EF447C30002CE61 /* AppLauncher.m in Sources */,
 				88F2B8B31EF443350002CE61 /* SecondViewController.m in Sources */,
 				88F2B9031EF449040002CE61 /* SavedViewController.m in Sources */,
@@ -600,9 +640,11 @@
 				88F2B9051EF449040002CE61 /* TabViewController.m in Sources */,
 				88F2B8AD1EF443350002CE61 /* AppDelegate.m in Sources */,
 				88F2B9081EF449180002CE61 /* SettingsCell.m in Sources */,
+				881C41EF1EF5A04600814619 /* Utility.m in Sources */,
 				88F2B9171EF4A7760002CE61 /* ExploreDetailViewController.m in Sources */,
 				88F2B90F1EF45EB10002CE61 /* UIColor+Utils.m in Sources */,
 				88F2B8B01EF443350002CE61 /* FirstViewController.m in Sources */,
+				881C41EB1EF59C0300814619 /* SignUpViewController.m in Sources */,
 				88F2B9011EF449040002CE61 /* ExploreViewController.m in Sources */,
 				88F2B9021EF449040002CE61 /* HistoryViewController.m in Sources */,
 				88F2B8AA1EF443350002CE61 /* main.m in Sources */,
