@@ -80,4 +80,17 @@
     return cell;
 }
 
+#pragma mark - Segue
+- (void)performSegueWithIdentifier:(NSString *)identifier sender:(id)sender
+{
+    
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([segue.identifier isEqualToString:@"show_details"]) {
+        
+    }
+}
+
 @end
